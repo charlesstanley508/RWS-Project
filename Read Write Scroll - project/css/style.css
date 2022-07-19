@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-fluid {
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.container {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container-fluid {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .container {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    background-color: #001A69;
+}
+
+/************* topbar-section  *************/
+.topbar-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.topsocial a {
+    margin-right: 0.5rem;
+    padding: 0 3px;
+    font-size: 20px;
+    color: #001A69;
+}
+
+/************* topsearch - section  *************/
+
+/************* header-section  *************/
+.header-section {
+    padding: 1.5rem 0rem;
+    background-color: #ffffff;
+}
+
+.header-section {
+    margin-bottom: 0;
+}
+
+.imgBorder img {
+    padding: 0 100px;
+    width: 100%;
+}
+
+
+.logo img {
+    max-width: 100%;
+    display: block;
+    margin: 0px 40%;
+}
+
+/******************* HEADER ********************/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .mainMenu {
+    display: flex;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+nav .mainMenu li :hover {
+    background: darkblue;
+    color: #ffffff;
+}
+
+nav .nav-center {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: rgb(0, 110, 255);
+}
+
+.fa-instagram:hover {
+    color: rgb(96, 154, 243);
+}
+
+.fa-twitter:hover {
+    color: rgb(255, 123, 0);
+}
+
+.fa-github:hover {
+    color: rgb(0, 110, 255);
+}
+
+.fa-google:hover {
+    color: rgb(0, 110, 255);
+}
+
+/******************* SLIDER - SHOW ********************/
+#header-carousel {
+    width: 100%;
+    height: 592px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+/******************* Section - Area ********************/
+#sectionArea {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.text-area .review {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #001A69;
+    padding-bottom: 20px;
+}
+
+.text-area h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.text-area p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    color: #000000;
+}
+
+.evelynAllen img {
+    width: 100%;
+    height: 500px;
+}
+
+.firstSection {
+    padding: 30px 0;
+    padding-right: 15px;
+}
+
+.firstSection .p-text {
+    padding: 30px 0;
+    padding-left: 10px;
+}
+
+.commentSection {
+    padding: 0 10px;
+}
+
+.slidebar {
+    padding: 10px 45px;
+    margin: 8px 0;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+}
+
+.slidebar .slidebar-title {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.slidebar p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.slidebar .icons2 i {
+    font-size: 1.7rem;
+    display: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+}
+
+.slidebar .post-item {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.post-item img {
+    width: 90px;
+    height: 90px;
+}
+
+.post-item .info-date p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.10em;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.post-item .info-date .date {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.10em;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    justify-content: center;
+}
+
+.post-item2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anotherSection {
+    display: flex;
+}
+
+.comment,
+.social-link,
+.likes {
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.comment i {
+    padding-right: 40px;
+}
+
+.likes i {
+    padding-left: 40px;
+}
+
+.articleSection {
+    display: flex;
+    margin: 40px 0;
+}
+
+.article .pSpan {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #001A69;
+    padding: 15px 0;
+}
+
+.article .pSpan1 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.article .pSpan2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.article .pSpan3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.article .social-icons {
+    color: #001A69;
+    padding: 10px 50px;
+}
+
+.article .social-icons i {
+    padding: 0 8px;
+    font-size: 20px;
+}
+
+.botton-section {
+    display: flex;
+    justify-content: center;
+}
+
+.botton1 {
+    background: #001A69;
+    margin: 0 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.botton1 a {
+    color: black;
+}
+
+.bottonColor {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bg-image {
+    margin: 2%;
+    position: relative;
+}
+
+.bg-text {
+    background: #F8F8F8;
+    position: absolute;
+    top: 50px;
+    left: 17px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.search-form form {
+    background: #fff;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.search-form form input {
+    margin-bottom: 10px;
+}
+
+.search-form form input[type=text] {
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 4px;
+    width: calc(100% - 40px);
+}
+
+.search-form form button {
+    width: 100%;
+    background: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: -1px;
+    background: #1bbd36;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    line-height: 0;
+}
+
+.search-form form button i {
+    line-height: 0;
+}
+
+.search-form form button:hover {
+    background: #1ecf3b;
+}
+
+.sidebar-item {
+    margin-bottom: 30px;
+}
+
+.tags {
+    margin-bottom: -10px;
+}
+
+.tags ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tags ul li {
+    display: inline-block;
+}
+
+.tags ul a {
+    color: #515151;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin: 0 6px 8px 0;
+    border: 1px solid #c4c4c4;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.tags ul a:hover {
+    color: #fff;
+    border: 1px solid darkblue;
+    background: darkblue;
+}
+
+.contect-form {
+    margin: 70px 0;
+}
+
+.social-handle {
+    display: flex;
+    justify-content: center;
+}
+
+.handle {
+    border-right: 1px solid #C4C4C4;
+}
+
+.handle h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    padding: 0 15px;
+}
+
+.second-logo {
+    margin: 25px 0;
+}
+
+.slogo img {
+    max-width: 100%;
+    display: block;
+    margin: 0px 40%;
+    padding: 30px 0;
+}
+
+.center {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #000000;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 800px) {
+    .logo img {
+        max-width: 150px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+
+    /* Nav bar */
+    nav .mainMenu {
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: darkblue;
+        font-size: 1.6rem;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    /* SLIDER - SHOW */
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* section */
+    #sectionArea {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstSection {
+        display: block;
+    }
+
+    .firstSection .text-area {
+        text-align: center;
+        padding: 0;
+    }
+
+}
